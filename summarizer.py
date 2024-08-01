@@ -10,7 +10,6 @@ def main():
 
     history = []
     summary_read = ''
-    engine = pyttsx3.init()
 
     if 'history' not in st.session_state:
         st.session_state['history'] = []
