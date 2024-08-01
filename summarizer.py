@@ -1,8 +1,6 @@
 import streamlit as st
-from transformers import pipeline, AutoTokenizer, AutoModelForSeq2SeqLM
-import torch
+from transformers import pipeline
 import pyttsx3
-import SessionState
 
 available_models = {
     "Google Pegasus": "google/pegasus-xsum",
