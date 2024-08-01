@@ -1,6 +1,5 @@
 import streamlit as st
 from transformers import pipeline
-import pyttsx3
 
 def main():
     available_models = {
