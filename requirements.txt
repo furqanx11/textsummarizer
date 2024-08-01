@@ -1,3 +1,3 @@
-streamlit==1.0.0
-transformers==4.11.3
-pyttsx3==2.90
+streamlit
+transformers
+pyttsx3
